@@ -20,4 +20,4 @@
 
 | Popos Cosmic Config |
 | ------------------- |
-| [Popos Cosmic Config](https://github.com/samwhelp/popos-cosmic-adjustment/tree/main/prototype/main) |
+| [Popos Cosmic Config](https://github.com/samwhelp/popos-cosmic-adjustment/tree/main/prototype/main/cosmic-config/Main) |
