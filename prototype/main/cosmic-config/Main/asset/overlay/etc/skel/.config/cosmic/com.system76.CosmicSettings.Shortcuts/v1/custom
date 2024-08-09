@@ -182,4 +182,12 @@
         key: "b",
         description: Some("Web_Browser_1"),
     ): Spawn("firefox --new-tab about:blank"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "s",
+        description: Some("System_Settings_1"),
+    ): Spawn("cosmic-settings"),
 }
