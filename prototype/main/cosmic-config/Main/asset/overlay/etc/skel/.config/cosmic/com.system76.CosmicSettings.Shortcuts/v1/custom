@@ -1,0 +1,185 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "y",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "g",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "m",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F1",
+    ): System(AppLibrary),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F2",
+    ): System(Launcher),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "grave",
+    ): System(Launcher),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "v",
+    ): ToggleTiling,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "n",
+    ): ToggleWindowFloating,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "c",
+    ): SwapWindow,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F4",
+    ): Close,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "q",
+    ): Close,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): Maximize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "x",
+    ): Minimize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "a",
+    ): System(WindowSwitcher),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "s",
+    ): System(WindowSwitcher),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "a",
+    ): PreviousWorkspace,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "s",
+    ): NextWorkspace,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Return",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "a",
+        description: Some("Terminal_1"),
+    ): Spawn("sakura"),
+    (
+        modifiers: [
+            Alt,
+            Ctrl,
+        ],
+        key: "a",
+        description: Some("Terminal_2"),
+    ): Spawn("xfce4-termianl"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "t",
+        description: Some("Terminal_3"),
+    ): Spawn("qterminal"),
+    (
+        modifiers: [
+            Alt,
+            Ctrl,
+        ],
+        key: "t",
+        description: Some("Terminal_4"),
+    ): Spawn("lxterminal"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "f",
+        description: Some("File_Manager_1"),
+    ): Spawn("thunar"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "g",
+        description: Some("File_Manager_2"),
+    ): Spawn("pcmanfm-qt"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "e",
+        description: Some("Text_Editor_1"),
+    ): Spawn("mousepad"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "b",
+        description: Some("Web_Browser_1"),
+    ): Spawn("firefox --new-tab about:blank"),
+}
