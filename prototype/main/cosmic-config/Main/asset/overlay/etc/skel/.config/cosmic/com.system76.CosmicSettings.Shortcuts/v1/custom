@@ -132,16 +132,24 @@
     ): Spawn("cosmic-term"),
     (
         modifiers: [
-            Super,
+            Alt,
+            Shift,
         ],
-        key: "Escape",
-    ): ToggleWindowFloating,
+        key: "s",
+        description: Some("LaunchSystemSettings"),
+    ): Spawn("cosmic-settings"),
     (
         modifiers: [
             Super,
         ],
         key: "v",
     ): ToggleTiling,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Escape",
+    ): ToggleWindowFloating,
     (
         modifiers: [
             Super,
