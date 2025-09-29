@@ -3,84 +3,7 @@
         modifiers: [
             Super,
         ],
-        key: "p",
-    ): SwapWindow,
-    (
-        modifiers: [
-            Alt,
-        ],
-        key: "Return",
-        description: Some("LaunchTerminal"),
-    ): Spawn("cosmic-term"),
-    (
-        modifiers: [
-            Alt,
-        ],
-        key: "Tab",
     ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "grave",
-    ): System(WorkspaceOverview),
-    (
-        modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "x",
-    ): System(LogOut),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "g",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "c",
-    ): ToggleStacking,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "x",
-    ): Minimize,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "y",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "b",
-    ): Disable,
-    (
-        modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "Tab",
-    ): Disable,
-    (
-        modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "b",
-        description: Some("LaunchWebBrowser"),
-    ): Spawn("firefox --new-tab about:blank"),
     (
         modifiers: [
             Super,
@@ -89,30 +12,17 @@
     ): Disable,
     (
         modifiers: [
-            Super,
+            Alt,
         ],
-        key: "t",
-    ): ToggleSticky,
+        key: "Tab",
+    ): Disable,
     (
         modifiers: [
             Alt,
             Shift,
         ],
-        key: "e",
-        description: Some("LaunchTextEditor"),
-    ): Spawn("cosmic-edit"),
-    (
-        modifiers: [
-            Alt,
-        ],
-        key: "F1",
-    ): System(AppLibrary),
-    (
-        modifiers: [
-            Alt,
-        ],
-        key: "F2",
-    ): System(Launcher),
+        key: "Tab",
+    ): Disable,
     (
         modifiers: [
             Super,
@@ -122,67 +32,10 @@
     ): Disable,
     (
         modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "a",
-        description: Some("LaunchTerminal"),
-    ): Spawn("cosmic-term"),
-    (
-        modifiers: [
             Super,
         ],
         key: "Tab",
     ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "w",
-    ): Maximize,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "s",
-    ): System(WindowSwitcher),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "f",
-    ): Fullscreen,
-    (
-        modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "l",
-    ): System(LockScreen),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Escape",
-    ): ToggleWindowFloating,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "m",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "F11",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "v",
-    ): ToggleTiling,
     (
         modifiers: [
             Super,
@@ -200,8 +53,44 @@
         modifiers: [
             Super,
         ],
-        key: "a",
-    ): System(WindowSwitcherPrevious),
+        key: "g",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "y",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "b",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "m",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "F11",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F1",
+    ): System(AppLibrary),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F2",
+    ): System(Launcher),
     (
         modifiers: [
             Alt,
@@ -210,4 +99,115 @@
         key: "f",
         description: Some("LaunchFileManager"),
     ): Spawn("cosmic-files"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "e",
+        description: Some("LaunchTextEditor"),
+    ): Spawn("cosmic-edit"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "b",
+        description: Some("LaunchWebBrowser"),
+    ): Spawn("firefox --new-tab about:blank"),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Return",
+        description: Some("LaunchTerminal"),
+    ): Spawn("cosmic-term"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "a",
+        description: Some("LaunchTerminal"),
+    ): Spawn("cosmic-term"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Escape",
+    ): ToggleWindowFloating,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "v",
+    ): ToggleTiling,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "grave",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "c",
+    ): ToggleStacking,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "t",
+    ): ToggleSticky,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "p",
+    ): SwapWindow,
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "x",
+    ): System(LogOut),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "l",
+    ): System(LockScreen),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "f",
+    ): Fullscreen,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): Maximize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "x",
+    ): Minimize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "a",
+    ): System(WindowSwitcherPrevious),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "s",
+    ): System(WindowSwitcher),
 }
