@@ -179,6 +179,13 @@
             Alt,
             Shift,
         ],
+        key: "z",
+    ): System(PowerOff),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
         key: "x",
     ): System(LogOut),
     (
