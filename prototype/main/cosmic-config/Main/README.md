@@ -12,6 +12,8 @@
 
 ## Link
 
+* [/usr/share/cosmic](https://github.com/samwhelp/popos-cosmic-adjustment/blob/main/sample/default-schema/Main/asset/overlay/usr/share/cosmic)
+
 
 
 
