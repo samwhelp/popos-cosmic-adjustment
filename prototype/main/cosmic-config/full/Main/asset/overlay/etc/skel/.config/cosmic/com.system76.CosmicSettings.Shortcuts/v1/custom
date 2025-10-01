@@ -109,6 +109,30 @@
     (
         modifiers: [
             Alt,
+            Ctrl,
+        ],
+        key: "a",
+        description: Some("LaunchTerminal_2"),
+    ): Spawn("xfce4-termianl"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "t",
+        description: Some("LaunchTerminal_3"),
+    ): Spawn("qterminal"),
+    (
+        modifiers: [
+            Alt,
+            Ctrl,
+        ],
+        key: "t",
+        description: Some("LaunchTerminal_4"),
+    ): Spawn("lxterminal"),
+    (
+        modifiers: [
+            Alt,
             Shift,
         ],
         key: "f",
