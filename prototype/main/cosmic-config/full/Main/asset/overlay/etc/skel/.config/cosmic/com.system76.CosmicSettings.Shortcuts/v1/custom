@@ -204,6 +204,12 @@
         modifiers: [
             Super,
         ],
+        key: "o",
+    ): ToggleOrientation,
+    (
+        modifiers: [
+            Super,
+        ],
         key: "p",
     ): SwapWindow,
     (
