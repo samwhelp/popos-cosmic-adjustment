@@ -77,6 +77,12 @@
         modifiers: [
             Super,
         ],
+        key: "Tab",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+        ],
         key: "grave",
     ): System(AppLibrary),
     (
@@ -182,12 +188,6 @@
         ],
         key: "Escape",
     ): ToggleWindowFloating,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Tab",
-    ): System(WorkspaceOverview),
     (
         modifiers: [
             Super,
