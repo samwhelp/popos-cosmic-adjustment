@@ -231,6 +231,12 @@
         modifiers: [
             Super,
         ],
+        key: "q",
+    ): Close,
+    (
+        modifiers: [
+            Super,
+        ],
         key: "f",
     ): Fullscreen,
     (
