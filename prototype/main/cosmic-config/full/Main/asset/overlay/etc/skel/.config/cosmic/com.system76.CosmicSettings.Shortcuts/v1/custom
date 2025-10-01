@@ -94,11 +94,34 @@
     (
         modifiers: [
             Alt,
+        ],
+        key: "Return",
+        description: Some("LaunchTerminal"),
+    ): Spawn("cosmic-term"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "a",
+        description: Some("LaunchTerminal"),
+    ): Spawn("cosmic-term"),
+    (
+        modifiers: [
+            Alt,
             Shift,
         ],
         key: "f",
         description: Some("LaunchFileManager"),
     ): Spawn("cosmic-files"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "g",
+        description: Some("LaunchFileManager_1"),
+    ): Spawn("thunar"),
     (
         modifiers: [
             Alt,
@@ -115,21 +138,6 @@
         key: "b",
         description: Some("LaunchWebBrowser"),
     ): Spawn("firefox --new-tab about:blank"),
-    (
-        modifiers: [
-            Alt,
-        ],
-        key: "Return",
-        description: Some("LaunchTerminal"),
-    ): Spawn("cosmic-term"),
-    (
-        modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "a",
-        description: Some("LaunchTerminal"),
-    ): Spawn("cosmic-term"),
     (
         modifiers: [
             Alt,
