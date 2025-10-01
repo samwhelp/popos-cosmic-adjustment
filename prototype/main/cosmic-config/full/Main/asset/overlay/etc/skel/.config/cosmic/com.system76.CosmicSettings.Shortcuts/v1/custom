@@ -33,12 +33,6 @@
     (
         modifiers: [
             Super,
-        ],
-        key: "Tab",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
             Shift,
         ],
         key: "Escape",
@@ -79,6 +73,12 @@
         ],
         key: "F11",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "grave",
+    ): System(AppLibrary),
     (
         modifiers: [
             Alt,
@@ -186,7 +186,7 @@
         modifiers: [
             Super,
         ],
-        key: "grave",
+        key: "Tab",
     ): System(WorkspaceOverview),
     (
         modifiers: [
