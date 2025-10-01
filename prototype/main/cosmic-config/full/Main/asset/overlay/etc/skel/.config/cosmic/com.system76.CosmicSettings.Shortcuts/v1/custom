@@ -210,7 +210,7 @@
         modifiers: [
             Super,
         ],
-        key: "p",
+        key: "z",
     ): SwapWindow,
     (
         modifiers: [
@@ -269,4 +269,271 @@
         ],
         key: "s",
     ): System(WindowSwitcher),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "a",
+    ): PreviousWorkspace,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "s",
+    ): NextWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "0",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "z",
+    ): LastWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "1",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "2",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "3",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "4",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "5",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "6",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "7",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "8",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "9",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "1",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "2",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "3",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "4",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "5",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "6",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "7",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "8",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "9",
+    ): Disable,
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "1",
+    ): Workspace(1),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "2",
+    ): Workspace(2),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "3",
+    ): Workspace(3),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "4",
+    ): Workspace(4),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "5",
+    ): Workspace(5),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "6",
+    ): Workspace(6),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "7",
+    ): Workspace(7),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "8",
+    ): Workspace(8),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "9",
+    ): Workspace(9),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "1",
+    ): MoveToWorkspace(1),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "2",
+    ): MoveToWorkspace(2),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "3",
+    ): MoveToWorkspace(3),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "4",
+    ): MoveToWorkspace(4),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "5",
+    ): MoveToWorkspace(5),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "6",
+    ): MoveToWorkspace(6),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "7",
+    ): MoveToWorkspace(7),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "8",
+    ): MoveToWorkspace(8),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "9",
+    ): MoveToWorkspace(9),
 }
