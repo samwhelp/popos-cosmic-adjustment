@@ -16,6 +16,12 @@
         ],
         key: "Tab",
     ): Disable,
+     (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): Disable,
     (
         modifiers: [
             Alt,
