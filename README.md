@@ -23,6 +23,7 @@
 | Script |
 | ------ |
 | [Popos Cosmic Config](https://github.com/samwhelp/popos-cosmic-adjustment/tree/main/prototype/main/cosmic-config/full/Main) |
+| [Tool Config](https://github.com/samwhelp/popos-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
 
